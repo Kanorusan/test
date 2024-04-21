@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: pink;
+}
+
+.block{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+ img{
+    margin-bottom: 18%;
+} 
+
+h1{
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+}
+
+.yes{
+    background-color: yellowgreen;
+    border:0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.yes:hover{
+    background-color: yellowgreen;
+    border:0;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+
+.no{
+    background-color: rgb(236, 110, 110);
+    border:0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.no:hover{
+    background-color: rgb(236, 110, 110);
+    border:0;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+
+
